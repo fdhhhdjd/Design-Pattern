@@ -15,5 +15,5 @@ const john = new Person("Tiến Tài", 23);
 const jane = john.clone();
 jane.name = "Tài Dev";
 
-john.introduce(); // Hi, my name is John and I am 25 years old.
-jane.introduce(); // Hi, my name is Jane and I am 25 years old.
+john.introduce(); // Hi, my name is Tiến Tài and I am 23 years old.
+jane.introduce(); // Hi, my name is Tài Dev and I am 25 years old.
