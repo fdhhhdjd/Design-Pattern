@@ -1,3 +1,4 @@
+//* V1
 class Counter {
   constructor({ counter }) {
     if (Counter.instance) {
