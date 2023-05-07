@@ -1,3 +1,5 @@
+"use strict";
+
 class UserRepository {
   constructor(database) {
     this.database = database;
