@@ -4,14 +4,16 @@ class Person {
     this.age = age;
   }
   introduce() {
-    return console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
+    return console.log(
+      `Hi, my name is ${this.name} and I am ${this.age} years old.`
+    );
   }
   clone() {
     return new Person(this.name, this.age);
   }
 }
 
-const personOne = new Person("Tiến Tài", 23);
+const pershatonOne = new Person("Tiến Tài", 23);
 const personTwo = personOne.clone();
 personTwo.name = "Nguyen Tien Tai";
 personTwo.age = 22;
