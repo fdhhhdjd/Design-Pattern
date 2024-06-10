@@ -21,7 +21,7 @@
 
   // Automatically correct errors reported in the code when saving the file.
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
 
   // Set the newline character for files to be a newline (LF).
