@@ -60,7 +60,6 @@ class Order {
   }
 }
 
-// Sử dụng State Pattern
 const order = new Order();
 
 order.process(); // Đơn hàng đang chờ xử lý -> Chuyển sang Đang vận chuyển
