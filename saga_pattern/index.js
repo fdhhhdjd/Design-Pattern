@@ -43,8 +43,8 @@ class BasketState {
   }
 
   async rollback() {
-    console.log("Rolling back basket");
     // Implement rollback logic if necessary
+    console.log("Rolling back basket");
   }
 }
 
